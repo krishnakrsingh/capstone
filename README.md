@@ -169,5 +169,6 @@ pytest tests/ -v --cov=src
 ---
 
 ## Documentation Links
+- [Assignment Instructions & Rubric](file:///c:/Users/krish/Downloads/capstone/INSTRUCTIONS.md)
 - [Phase 1 System Design and Planning](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_1_SYSTEM_DESIGN.md)
 - [Assignment Rubric Image](file:///c:/Users/krish/Downloads/capstone/docs/assets/capstone_assignment_portal.png)
