@@ -170,5 +170,10 @@ pytest tests/ -v --cov=src
 
 ## Documentation Links
 - [Assignment Instructions & Rubric](file:///c:/Users/krish/Downloads/capstone/INSTRUCTIONS.md)
-- [Phase 1 System Design and Planning](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_1_SYSTEM_DESIGN.md)
+- [Phase 1: System Design and Planning](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_1_SYSTEM_DESIGN.md)
+- [Phase 2: Core Resource-Management Implementation](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_2_IMPLEMENTATION.md)
+- [Phase 3: Analysis and Comparison](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_3_ANALYSIS.md)
+- [Phase 4: Testing and Reliability](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_4_TESTING.md)
+- [Phase 5: Demonstration & Final Report](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_5_FINAL_REPORT.md)
+- [Official Submission PDF Report](file:///c:/Users/krish/Downloads/capstone/output/reports/OS_SimSuite_Final_Report.pdf) (885 KB, < 25MB Portal Limit)
 - [Assignment Rubric Image](file:///c:/Users/krish/Downloads/capstone/docs/assets/capstone_assignment_portal.png)

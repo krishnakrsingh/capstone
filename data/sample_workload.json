@@ -9,7 +9,7 @@
     "round_robin_quantum": 3
   },
   "memory_partitioning": {
-    "total_memory_size": 1000,
+    "total_memory_size": 2000,
     "initial_partitions": [100, 500, 200, 300, 600],
     "process_requests": [
       {"pid": "Job1", "size": 212},
