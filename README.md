@@ -72,55 +72,52 @@
 ```
 capstone/
 ├── README.md                      # Primary project documentation & execution guide
+├── INSTRUCTIONS.md                # Official Capstone rubric & assignment requirements
 ├── requirements.txt               # Python package dependencies
 ├── run.sh                         # Bash entry point and orchestrator
 ├── run.ps1                        # PowerShell entry point for Windows
 ├── main.py                        # Python main application entry point
-├── docs/                          # Detailed phase documentation & specifications
-│   ├── PHASE_1_SYSTEM_DESIGN.md   # Complete Phase 1 System Design specification
-│   └── assets/                    # Screenshots, diagrams, and assignment portal rubric
-│       └── capstone_assignment_portal.png
-├── data/                          # Standardized test & benchmark workloads (JSON/CSV)
+├── pytest.ini                     # Pytest configuration
+├── docs/                          # Structured project documentation
+│   ├── INSTRUCTIONS.md            # Preserved assignment instructions
+│   ├── assets/                    # Portal reference images & visual diagrams
+│   ├── screenshots/               # Terminal execution screenshots (01..08)
+│   └── phases/                    # Individual phase milestone reports
+│       ├── PHASE_1_SYSTEM_DESIGN.md
+│       ├── PHASE_2_IMPLEMENTATION.md
+│       ├── PHASE_3_ANALYSIS.md
+│       ├── PHASE_4_TESTING.md
+│       └── PHASE_5_FINAL_REPORT.md
+├── data/                          # Standardized test & benchmark workloads (JSON)
+│   ├── sample_workload.json
 │   ├── sample_cpu.json
 │   ├── sample_memory.json
 │   ├── sample_deadlock.json
-│   ├── sample_disk.json
-│   └── full_benchmark_suite.json
+│   └── sample_disk.json
 ├── src/                           # Core application source code
-│   ├── __init__.py
 │   ├── engine.py                  # Simulation Controller
-│   ├── cli/                       # User interfaces (Menu & CLI args)
-│   │   ├── __init__.py
-│   │   └── menu.py
+│   ├── cli/menu.py                # Interactive ANSI terminal menu
 │   ├── modules/                   # Operating System resource management modules
-│   │   ├── __init__.py
 │   │   ├── cpu_scheduler.py       # FCFS, SJF, SRTF, Priority, Round Robin
 │   │   ├── memory_manager.py      # Dynamic allocation & FIFO/LRU/OPT paging
 │   │   ├── deadlock_guard.py      # Dijkstra's Banker's algorithm
 │   │   └── disk_scheduler.py      # FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK
 │   ├── analytics/                 # Analysis and visualization engine
-│   │   ├── __init__.py
-│   │   ├── metrics.py             # Performance metric calculators
+│   │   ├── metrics.py             # Performance metric calculators & table formatter
 │   │   ├── visualizer.py          # Gantt, trajectory & histogram plots
-│   │   └── report_generator.py    # Automated report & PDF exporter
-│   └── utils/                     # Cross-cutting utilities
-│       ├── __init__.py
-│       ├── logger.py              # Centralized logging
-│       └── validator.py           # Input schema & boundary verification
-├── scripts/                       # Bash workflow automation scripts
+│   │   └── report_generator.py    # ReportLab automated PDF report generator
+│   └── utils/                     # Exceptions, logging, and input validators
+├── scripts/                       # Shell automation and diagnostic scripts
 │   ├── benchmark_runner.sh        # Runs comparative suite across all modules
-│   └── health_check.sh            # Validates dependencies and environment
-├── tests/                         # Pytest automated test suite (Phase 4)
-│   ├── test_cpu_scheduler.py
-│   ├── test_memory_manager.py
-│   ├── test_deadlock_guard.py
-│   ├── test_disk_scheduler.py
-│   └── test_validators.py
+│   ├── health_check.sh            # Validates dependencies and environment
+│   ├── generate_report.sh         # PDF report compilation trigger
+│   └── generate_screenshots.py    # Terminal screenshot generator
+├── tests/                         # Pytest automated test suite (27 tests, 92% coverage)
 └── output/                        # Generated output traces, charts, and reports
-    ├── traces/                    # JSON/Text step-by-step state traces
-    ├── tables/                    # CSV & text metric comparison tables
-    ├── figures/                   # PNG chart outputs (Gantt, Seek, etc.)
-    └── reports/                   # Compiled reports and summary documents
+    ├── figures/                   # High-resolution PNG visual plots
+    ├── reports/                   # Submission PDF (Capstone_Final_Report.pdf)
+    ├── tables/                    # Formatted text & CSV metrics
+    └── traces/                    # Serialized execution logs & traces
 ```
 
 ---
@@ -199,10 +196,10 @@ pytest tests/ -v --cov=src
 
 ## Documentation Links
 - [Assignment Instructions & Rubric](file:///c:/Users/krish/Downloads/capstone/INSTRUCTIONS.md)
-- [Phase 1: System Design and Planning](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_1_SYSTEM_DESIGN.md)
-- [Phase 2: Core Resource-Management Implementation](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_2_IMPLEMENTATION.md)
-- [Phase 3: Analysis and Comparison](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_3_ANALYSIS.md)
-- [Phase 4: Testing and Reliability](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_4_TESTING.md)
-- [Phase 5: Demonstration & Final Report](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_5_FINAL_REPORT.md)
+- [Phase 1: System Design and Planning](file:///c:/Users/krish/Downloads/capstone/docs/phases/PHASE_1_SYSTEM_DESIGN.md)
+- [Phase 2: Core Resource-Management Implementation](file:///c:/Users/krish/Downloads/capstone/docs/phases/PHASE_2_IMPLEMENTATION.md)
+- [Phase 3: Analysis and Comparison](file:///c:/Users/krish/Downloads/capstone/docs/phases/PHASE_3_ANALYSIS.md)
+- [Phase 4: Testing and Reliability](file:///c:/Users/krish/Downloads/capstone/docs/phases/PHASE_4_TESTING.md)
+- [Phase 5: Demonstration & Final Report](file:///c:/Users/krish/Downloads/capstone/docs/phases/PHASE_5_FINAL_REPORT.md)
 - [Official Submission PDF Report](file:///c:/Users/krish/Downloads/capstone/output/reports/Capstone_Final_Report.pdf) (1.09 MB, < 25MB Portal Limit)
 - [Assignment Rubric Image](file:///c:/Users/krish/Downloads/capstone/docs/assets/capstone_assignment_portal.png)
