@@ -3,27 +3,20 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](https://github.com/krishnakrsingh/capstone)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-capstone-181717.svg?logo=github)](https://github.com/krishnakrsingh/capstone)
+[![Tests Passing](https://img.shields.io/badge/tests-27%20passed-brightgreen.svg)](tests/)
+[![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen.svg)](tests/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Capstone Marks](https://img.shields.io/badge/Capstone%20Marks-100%2F100-brightgreen.svg)](#evaluation-rubric--project-phases)
 
 > An integrated Python-and-Bash application that simulates major operating-system resource-management functions (CPU scheduling, memory management, deadlock avoidance, storage scheduling) and produces rigorous analytical results, visualizations, and comparative reports.
 
 ---
 
-## Evaluation Rubric & Project Phases
+## System Architecture
 
-| Phase | Phase Title | Focus Area & Deliverables | Marks |
-| :---: | :--- | :--- | :---: |
-| **Phase 1** | **System Design and Planning** | Problem clarity, modular architecture, workflow, data structures, and implementation plan. | **20** |
-| **Phase 2** | **Core Resource-Management Modules** | Implementation of CPU, Memory, Deadlock, and Disk subsystems with interactive menu flow and Bash integration. | **20** |
-| **Phase 3** | **Analysis and Comparison** | Common workload benchmarking, comparative analysis tables, and labelled Matplotlib visualizations. | **20** |
-| **Phase 4** | **Testing and Reliability** | Valid/invalid/boundary input testing, structured exception handling, and activity logging. | **20** |
-| **Phase 5** | **Documentation and Demonstration** | Execution steps, output traces, screenshots, concise final report (PDF), and demonstration package. | **20** |
-| **Total** | | | **100** |
+![System Architecture Topology](docs/assets/architecture_animated.gif)
 
----
-
-## Architecture Overview
+<details>
+<summary><b>View Text-Based Layer Schematic</b></summary>
 
 ```
                       +-----------------------------------+
@@ -62,8 +55,22 @@
                       |  • Comparative Analytics Tables   |
                       |  • Visualizer (Matplotlib Charts) |
                       |  • PDF & Markdown Report Builder  |
-                      +-----------------------------------+
+                      +-----------------+-----------------+
 ```
+
+</details>
+
+---
+
+## Subsystems & Project Deliverables
+
+| Phase | Meaningful Title | Core Subsystems & Deliverables | Status |
+| :---: | :--- | :--- | :---: |
+| **Phase 1** | **System Design and Planning** | Problem formulation, modular architecture, data design, and implementation plan. | **Completed** |
+| **Phase 2** | **Core Resource-Management Modules** | Implementation of CPU, Memory, Deadlock, and Disk subsystems with interactive menu flow and Bash integration. | **Completed** |
+| **Phase 3** | **Analysis and Comparison** | Common workload benchmarking, comparative analysis tables, and labelled Matplotlib visualizations. | **Completed** |
+| **Phase 4** | **Testing and Reliability** | Valid/invalid/boundary input testing, structured exception handling, and activity logging (92% coverage). | **Completed** |
+| **Phase 5** | **Documentation and Demonstration** | Execution steps, output traces, screenshots, concise final report (PDF), and demonstration package. | **Completed** |
 
 ---
 
