@@ -44,3 +44,21 @@
 2026-11-23 23:41:11 [INFO] [SimulationEngine:run_memory_benchmark]: Simulating page replacement (Frames=3, References=20)
 2026-11-23 23:41:12 [INFO] [SimulationEngine:run_deadlock_benchmark]: Banker's Safety Check: System is in a SAFE STATE. Complete Safe Execution Sequence: <P1 -> P3 -> P0 -> P2 -> P4>.
 2026-11-23 23:41:12 [INFO] [SimulationEngine:run_disk_benchmark]: Simulating disk scheduling from head=53 on 200 cylinders (direction=RIGHT)
+2026-11-24 01:26:06 [INFO] [SimulationEngine:load_workload]: Loaded workload configuration from C:\Users\krish\Downloads\capstone\data/sample_workload.json
+2026-11-24 01:26:06 [INFO] [SimulationEngine:run_full_suite]: ==================================================
+2026-11-24 01:26:06 [INFO] [SimulationEngine:run_full_suite]: STARTING FULL OS-SIMSUITE BENCHMARK EXECUTION
+2026-11-24 01:26:06 [INFO] [SimulationEngine:run_full_suite]: ==================================================
+2026-11-24 01:26:06 [INFO] [SimulationEngine:run_cpu_benchmark]: Running CPU Scheduling benchmark across 4 processes (Quantum=3)
+2026-11-24 01:26:07 [INFO] [SimulationEngine:run_memory_benchmark]: Simulating page replacement (Frames=3, References=20)
+2026-11-24 01:26:08 [INFO] [SimulationEngine:run_deadlock_benchmark]: Banker's Safety Check: System is in a SAFE STATE. Complete Safe Execution Sequence: <P1 -> P3 -> P0 -> P2 -> P4>.
+2026-11-24 01:26:08 [INFO] [SimulationEngine:run_disk_benchmark]: Simulating disk scheduling from head=53 on 200 cylinders (direction=RIGHT)
+2026-11-24 01:26:12 [INFO] [SimulationEngine:run_full_suite]: Master PDF Report generated at: C:\Users\krish\Downloads\capstone\output\reports\OS_SimSuite_Final_Report.pdf
+2026-11-24 01:27:06 [INFO] [SimulationEngine:load_workload]: Loaded workload configuration from C:\Users\krish\Downloads\capstone\data/sample_workload.json
+2026-11-24 01:27:06 [INFO] [SimulationEngine:run_full_suite]: ==================================================
+2026-11-24 01:27:06 [INFO] [SimulationEngine:run_full_suite]: STARTING FULL OS-SIMSUITE BENCHMARK EXECUTION
+2026-11-24 01:27:06 [INFO] [SimulationEngine:run_full_suite]: ==================================================
+2026-11-24 01:27:06 [INFO] [SimulationEngine:run_cpu_benchmark]: Running CPU Scheduling benchmark across 4 processes (Quantum=3)
+2026-11-24 01:27:07 [INFO] [SimulationEngine:run_memory_benchmark]: Simulating page replacement (Frames=3, References=20)
+2026-11-24 01:27:09 [INFO] [SimulationEngine:run_deadlock_benchmark]: Banker's Safety Check: System is in a SAFE STATE. Complete Safe Execution Sequence: <P1 -> P3 -> P0 -> P2 -> P4>.
+2026-11-24 01:27:09 [INFO] [SimulationEngine:run_disk_benchmark]: Simulating disk scheduling from head=53 on 200 cylinders (direction=RIGHT)
+2026-11-24 01:27:12 [INFO] [SimulationEngine:run_full_suite]: Master PDF Report generated at: C:\Users\krish\Downloads\capstone\output\reports\OS_SimSuite_Final_Report.pdf

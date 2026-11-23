@@ -168,6 +168,34 @@ pytest tests/ -v --cov=src
 
 ---
 
+## Visual Demonstrations & System Screenshots
+
+### 1. Interactive Terminal Menu (CLI Control Center)
+![Interactive Menu](docs/screenshots/01_interactive_menu.png)
+
+### 2. CPU Process Scheduling Comparative Evaluation & Gantt Chart
+![CPU Scheduling](docs/screenshots/02_cpu_scheduling.png)
+
+### 3. Memory Partitioning (First/Best/Worst Fit) & Page Replacement (FIFO/LRU/Optimal)
+![Memory & Paging](docs/screenshots/03_memory_paging.png)
+
+### 4. Deadlock Avoidance (Dijkstra's Banker's Algorithm Safe State & Request Evaluation)
+![Deadlock Banker's](docs/screenshots/04_deadlock_bankers.png)
+
+### 5. Storage / Disk Head Trajectory Scheduling Comparison (FCFS, SSTF, SCAN, LOOK)
+![Disk Scheduling](docs/screenshots/05_disk_scheduling.png)
+
+### 6. Automated Pytest Suite & Coverage Verification (27 / 27 Passing, 91% Coverage)
+![Pytest Coverage](docs/screenshots/06_pytest_coverage.png)
+
+### 7. Bash Pre-Flight Diagnostics & Health Check
+![Health Check](docs/screenshots/07_health_check.png)
+
+### 8. Automated Bash Batch Benchmark Pipeline Execution
+![Batch Benchmark](docs/screenshots/08_batch_benchmark.png)
+
+---
+
 ## Documentation Links
 - [Assignment Instructions & Rubric](file:///c:/Users/krish/Downloads/capstone/INSTRUCTIONS.md)
 - [Phase 1: System Design and Planning](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_1_SYSTEM_DESIGN.md)
@@ -175,5 +203,5 @@ pytest tests/ -v --cov=src
 - [Phase 3: Analysis and Comparison](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_3_ANALYSIS.md)
 - [Phase 4: Testing and Reliability](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_4_TESTING.md)
 - [Phase 5: Demonstration & Final Report](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_5_FINAL_REPORT.md)
-- [Official Submission PDF Report](file:///c:/Users/krish/Downloads/capstone/output/reports/OS_SimSuite_Final_Report.pdf) (885 KB, < 25MB Portal Limit)
+- [Official Submission PDF Report](file:///c:/Users/krish/Downloads/capstone/output/reports/OS_SimSuite_Final_Report.pdf) (1.09 MB, < 25MB Portal Limit)
 - [Assignment Rubric Image](file:///c:/Users/krish/Downloads/capstone/docs/assets/capstone_assignment_portal.png)
