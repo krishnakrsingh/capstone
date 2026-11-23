@@ -6,7 +6,7 @@
 - **Total Marks:** 100 Marks
 - **Submission Requirements:**
   - **Upload submission:** Only PDF format is allowed (Up to 1 file, max 25MB, `application/pdf`).
-  - **GitHub submission:** Public or institutional GitHub repository URL containing the complete integrated application.
+  - **GitHub submission:** [https://github.com/krishnakrsingh/os-simsuite](https://github.com/krishnakrsingh/os-simsuite)
   - **Deliverable package:** One working application containing source code, README/execution steps, sample input, output traces, screenshots, test cases, and a concise report. The work should run as an integrated project rather than a collection of unrelated programs.
 
 ---

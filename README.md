@@ -1,7 +1,8 @@
 # OS-SimSuite: Integrated Operating System Resource-Management Simulator & Analytics Engine
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](https://github.com/)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](https://github.com/krishnakrsingh/os-simsuite)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-os--simsuite-181717.svg?logo=github)](https://github.com/krishnakrsingh/os-simsuite)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Capstone Marks](https://img.shields.io/badge/Capstone%20Marks-100%2F100-brightgreen.svg)](#evaluation-rubric--project-phases)
 
