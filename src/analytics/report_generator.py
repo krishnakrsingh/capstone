@@ -30,7 +30,7 @@ class PDFReportGenerator:
             base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
             rep_dir = os.path.join(base_dir, "output", "reports")
             os.makedirs(rep_dir, exist_ok=True)
-            self.output_path = os.path.join(rep_dir, "OS_SimSuite_Final_Report.pdf")
+            self.output_path = os.path.join(rep_dir, "Capstone_Final_Report.pdf")
         else:
             self.output_path = output_path
 
@@ -121,14 +121,14 @@ class PDFReportGenerator:
         # ----------------------------------------------------
         # 1. Title Banner & Header
         # ----------------------------------------------------
-        elements.append(Paragraph("OS-SimSuite: Integrated Operating System Simulator", title_style))
+        elements.append(Paragraph("Capstone: Integrated Operating System Resource-Management Simulator", title_style))
         elements.append(Paragraph("<b>Capstone Project Final Comprehensive Report</b> | 100 Marks Evaluation Package", subtitle_style))
         elements.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor("#2B6CB0"), spaceAfter=10))
 
         # Metadata Table
         meta_data = [
             [
-                Paragraph("<b>Project:</b> OS-SimSuite", table_cell_style),
+                Paragraph("<b>Project:</b> Capstone", table_cell_style),
                 Paragraph("<b>Language:</b> Python 3.10+ & POSIX Bash", table_cell_style),
                 Paragraph("<b>Evaluation Marks:</b> 100 / 100", table_cell_style)
             ],

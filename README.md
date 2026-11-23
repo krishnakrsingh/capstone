@@ -1,8 +1,8 @@
-# OS-SimSuite: Integrated Operating System Resource-Management Simulator & Analytics Engine
+# Capstone: Integrated Operating System Resource-Management Simulator & Analytics Engine
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](https://github.com/krishnakrsingh/os-simsuite)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-os--simsuite-181717.svg?logo=github)](https://github.com/krishnakrsingh/os-simsuite)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](https://github.com/krishnakrsingh/capstone)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-capstone-181717.svg?logo=github)](https://github.com/krishnakrsingh/capstone)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Capstone Marks](https://img.shields.io/badge/Capstone%20Marks-100%2F100-brightgreen.svg)](#evaluation-rubric--project-phases)
 
@@ -204,5 +204,5 @@ pytest tests/ -v --cov=src
 - [Phase 3: Analysis and Comparison](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_3_ANALYSIS.md)
 - [Phase 4: Testing and Reliability](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_4_TESTING.md)
 - [Phase 5: Demonstration & Final Report](file:///c:/Users/krish/Downloads/capstone/docs/PHASE_5_FINAL_REPORT.md)
-- [Official Submission PDF Report](file:///c:/Users/krish/Downloads/capstone/output/reports/OS_SimSuite_Final_Report.pdf) (1.09 MB, < 25MB Portal Limit)
+- [Official Submission PDF Report](file:///c:/Users/krish/Downloads/capstone/output/reports/Capstone_Final_Report.pdf) (1.09 MB, < 25MB Portal Limit)
 - [Assignment Rubric Image](file:///c:/Users/krish/Downloads/capstone/docs/assets/capstone_assignment_portal.png)

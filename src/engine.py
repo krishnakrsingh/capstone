@@ -196,7 +196,7 @@ class SimulationEngine:
         disk_res = self.run_disk_benchmark(config.get("disk_scheduling", {}), generate_plots=True)
 
         # Generate Master PDF Report
-        pdf_gen = PDFReportGenerator(os.path.join(self.reports_dir, "OS_SimSuite_Final_Report.pdf"))
+        pdf_gen = PDFReportGenerator(os.path.join(self.reports_dir, "Capstone_Final_Report.pdf"))
         portal_img = os.path.join(self.base_dir, "docs", "assets", "capstone_assignment_portal.png")
         cpu_gantt = os.path.join(self.base_dir, "output", "figures", "cpu_gantt_chart.png")
         cpu_comp = os.path.join(self.base_dir, "output", "figures", "cpu_comparison.png")
